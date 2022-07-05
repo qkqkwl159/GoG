@@ -1,11 +1,13 @@
 import React from 'react';
 import './Product.css'
-import reducer from './Reducer';
+
+import { useStateValue } from './StateProvider';
+
 
 function Product({id, title, image, price, rating}) {
+    const [{basket}, dispatchEvent] = useStateValue();
 
 const addToBasket = () =>{
-
     dispatchEvent( {
         type:"ADD_TO_BASKET",
         item:{
@@ -14,9 +16,11 @@ const addToBasket = () =>{
             image:image,
             price:price,
             rating:rating,
-        }
-    })
-}
+        },
+    });
+};
+
+console.log("장바구니 확인",basket);
 
 
     return (

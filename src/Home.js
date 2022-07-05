@@ -16,7 +16,7 @@ function Home() {
                 price={30000} image= "https://blog.kakaocdn.net/dn/tcpuN/btqzLEu8hlR/17KNO4UiEA0bcKzStd6Fyk/img.jpg"
                 rating={4}/>
 
-                <Product id="0001" title="AirMax"
+                <Product id="0002" title="AirMax"
                 price={90000} image= "https://mobiinsidecontent.s3.ap-northeast-2.amazonaws.com/kr/wp-content/uploads/2020/12/09112201/106807802-1607435674721-airpods-max-4.jpg"
                 rating={4}/>
 
@@ -24,13 +24,13 @@ function Home() {
             <div className='home_row'>
 
                 
-                <Product id="0002" title="GingerBeer-Non Alcor"
+                <Product id="0003" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={1}/>
-                <Product id="0002" title="GingerBeer-Non Alcor"
+                <Product id="0004" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={3}/>
-                <Product id="0002" title="GingerBeer-Non Alcor"
+                <Product id="0005" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={1}/>
                 
@@ -40,13 +40,13 @@ function Home() {
 
             <div className='home_row'>
 
-            <Product id="0002" title="GingerBeer-Non Alcor"
+            <Product id="0006" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={2}/>
-            <Product id="0002" title="GingerBeer-Non Alcor"
+            <Product id="0007" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={5}/>
-            <Product id="0002" title="GingerBeer-Non Alcor"
+            <Product id="0008" title="GingerBeer-Non Alcor"
                 price={3000} image= "https://www.costco.co.kr/medias/sys_master/images/haf/h4d/103457608269854.webp"
                 rating={3}/>
 
